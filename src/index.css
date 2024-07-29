@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply mx-auto
+}
+
+::-webkit-scrollbar{
+    @apply w-2 bg-[#282D4D]
+}
+
+::-webkit-scrollbar-thumb{
+    @apply bg-gray-700 rounded-xl
+}
