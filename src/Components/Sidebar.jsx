@@ -54,7 +54,7 @@ const Sidebar = () => {
   return (
     <div className="flex">
       <div
-        className={`bg-primary border-r border-gray-700 h-screen p-3 pt-4 text-sm fixed transition-all duration-200 ${
+        className={`bg-primary border-r border-gray-700 min-h-screen p-3 pt-4 text-sm fixed transition-all duration-200 ${
           isHovered ? 'w-60' : 'w-16'
         }`}
         onMouseEnter={() => setIsHovered(true)}
